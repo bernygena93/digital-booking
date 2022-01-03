@@ -1,0 +1,2158 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Tequendama",
+    "description": "El GHL Hotel Tequendama Bogotá está ubicado en Bogotá, a 1,7 km del Chorro de Quevedo, y ofrece alojamiento, restaurante, estacionamiento privado, centro de fitness y bar. Todas las habitaciones disponen de baño privado y TV de pantalla plana con canales por cable. Hay recepción 24 horas, room service y servicio de cambio de divisa. Todas las habitaciones del hotel están equipadas con armario. Las habitaciones tienen heladera. El GHL Hotel Tequendama Bogotá sirve un desayuno buffet a diario. El restaurante Piazza Roma propone platos italianos, mientras que el restaurante El Virrey está especializado en platos locales e internacionales. El Café Vienés ofrece pasteles deliciosos y bebidas calientes.",
+    "city": {
+      "id": 1,
+      "name": "Bogotá",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 1,
+        "title": "Tequendama_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-tequendama/1.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "Tequendama_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-tequendama/4.jpeg"
+      },
+      {
+        "id": 5,
+        "title": "Tequendama_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-tequendama/5.jpeg"
+      },
+      {
+        "id": 3,
+        "title": "Tequendama_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-tequendama/3.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [
+      {
+        "id": 23,
+        "checkInTime": "04:00:00",
+        "checkInDate": "2021-12-22",
+        "checkOutDate": "2021-12-23",
+        "product": {
+          "id": 1,
+          "name": "Hotel Tequendama",
+          "description": "El GHL Hotel Tequendama Bogotá está ubicado en Bogotá, a 1,7 km del Chorro de Quevedo, y ofrece alojamiento, restaurante, estacionamiento privado, centro de fitness y bar. Todas las habitaciones disponen de baño privado y TV de pantalla plana con canales por cable. Hay recepción 24 horas, room service y servicio de cambio de divisa. Todas las habitaciones del hotel están equipadas con armario. Las habitaciones tienen heladera. El GHL Hotel Tequendama Bogotá sirve un desayuno buffet a diario. El restaurante Piazza Roma propone platos italianos, mientras que el restaurante El Virrey está especializado en platos locales e internacionales. El Café Vienés ofrece pasteles deliciosos y bebidas calientes.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 1,
+            "name": "Hoteles",
+            "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+            "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 11,
+          "userName": "elathan14@hotmail.com",
+          "name": "Gonzalo",
+          "lastName": "Vila",
+          "email": "elathan14@hotmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "78KcFbdlAfzbsoEjk7dKme0ljviRKhvt"
+        }
+      },
+      {
+        "id": 24,
+        "checkInTime": "07:00:00",
+        "checkInDate": "2021-12-07",
+        "checkOutDate": "2021-12-10",
+        "product": {
+          "id": 1,
+          "name": "Hotel Tequendama",
+          "description": "El GHL Hotel Tequendama Bogotá está ubicado en Bogotá, a 1,7 km del Chorro de Quevedo, y ofrece alojamiento, restaurante, estacionamiento privado, centro de fitness y bar. Todas las habitaciones disponen de baño privado y TV de pantalla plana con canales por cable. Hay recepción 24 horas, room service y servicio de cambio de divisa. Todas las habitaciones del hotel están equipadas con armario. Las habitaciones tienen heladera. El GHL Hotel Tequendama Bogotá sirve un desayuno buffet a diario. El restaurante Piazza Roma propone platos italianos, mientras que el restaurante El Virrey está especializado en platos locales e internacionales. El Café Vienés ofrece pasteles deliciosos y bebidas calientes.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 1,
+            "name": "Hoteles",
+            "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+            "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 1,
+          "userName": "anto.legarreta@gmail.com",
+          "name": "Anto",
+          "lastName": "Legarreta",
+          "email": "anto.legarreta@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "9QLHyzA0yAnqxwOUd4b4M5Q3CPxnYQpc"
+        }
+      }
+    ],
+    "address": null
+  },
+  {
+    "id": 2,
+    "name": "Granada Hostel",
+    "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+    "city": {
+      "id": 1,
+      "name": "Bogotá",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 2,
+      "name": "Hostels",
+      "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+      "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 10,
+        "title": "Granada_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/granada-hostel/5.jpeg"
+      },
+      {
+        "id": 9,
+        "title": "Granada_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/granada-hostel/4.jpeg"
+      },
+      {
+        "id": 8,
+        "title": "Granada_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/granada-hostel/3.jpeg"
+      },
+      {
+        "id": 7,
+        "title": "Granada_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/granada-hostel/2.jpeg"
+      },
+      {
+        "id": 6,
+        "title": "Granada_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/granada-hostel/1.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [
+      {
+        "id": 13,
+        "checkInTime": "10:00:00",
+        "checkInDate": "2022-01-23",
+        "checkOutDate": "2022-01-30",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 3,
+          "userName": "walter_93_gena@hotmail.com",
+          "name": "walter",
+          "lastName": "genario",
+          "email": "walter_93_gena@hotmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "mATDCcEJGZH90QCWchXQPJjGoYrbzZ4C"
+        }
+      },
+      {
+        "id": 12,
+        "checkInTime": "10:00:00",
+        "checkInDate": "2022-02-05",
+        "checkOutDate": "2022-02-15",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 3,
+          "userName": "walter_93_gena@hotmail.com",
+          "name": "walter",
+          "lastName": "genario",
+          "email": "walter_93_gena@hotmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "mATDCcEJGZH90QCWchXQPJjGoYrbzZ4C"
+        }
+      },
+      {
+        "id": 7,
+        "checkInTime": "10:00:00",
+        "checkInDate": "2022-01-07",
+        "checkOutDate": "2022-01-14",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 1,
+          "userName": "anto.legarreta@gmail.com",
+          "name": "Anto",
+          "lastName": "Legarreta",
+          "email": "anto.legarreta@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "9QLHyzA0yAnqxwOUd4b4M5Q3CPxnYQpc"
+        }
+      },
+      {
+        "id": 21,
+        "checkInTime": "12:00:00",
+        "checkInDate": "2021-12-17",
+        "checkOutDate": "2021-12-17",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 8,
+          "userName": "mercedesvankeulen@gmail.com",
+          "name": "Mechi",
+          "lastName": "van Keulen",
+          "email": "mercedesvankeulen@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "ytAf0QlqR4ebWpTTFAPKlBiI0S6AhjQx"
+        }
+      },
+      {
+        "id": 18,
+        "checkInTime": "10:00:00",
+        "checkInDate": "2021-12-25",
+        "checkOutDate": "2021-12-30",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 3,
+          "userName": "walter_93_gena@hotmail.com",
+          "name": "walter",
+          "lastName": "genario",
+          "email": "walter_93_gena@hotmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "mATDCcEJGZH90QCWchXQPJjGoYrbzZ4C"
+        }
+      },
+      {
+        "id": 9,
+        "checkInTime": "10:00:00",
+        "checkInDate": "2021-12-15",
+        "checkOutDate": "2021-12-20",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 3,
+          "userName": "walter_93_gena@hotmail.com",
+          "name": "walter",
+          "lastName": "genario",
+          "email": "walter_93_gena@hotmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "mATDCcEJGZH90QCWchXQPJjGoYrbzZ4C"
+        }
+      },
+      {
+        "id": 26,
+        "checkInTime": "05:00:00",
+        "checkInDate": "2021-12-07",
+        "checkOutDate": "2021-12-07",
+        "product": {
+          "id": 2,
+          "name": "Granada Hostel",
+          "description": "El Granada Hostel se encuentra en Bogotá, a 200 metros de la biblioteca Luis Ángel Arango y a menos de 1 km del Chorro de Quevedo, y ofrece bar, salón compartido, jardín y wifi gratis. El alojamiento se encuentra a 6 km del centro internacional de exposiciones Corferias, a 7 km del estadio El Campín y a 11 km de la Zona T. Hay recepción 24 horas, cocina compartida y servicio de organización de excursiones. Cerca del alojamiento hay varios lugares de interés, como la plaza Bolívar, la iglesia de Nuestra Señora de la Candelaria y la Casa de la Independencia. El aeropuerto más cercano es el aeropuerto internacional El Dorado, ubicado a 14 km del Granada Hostel.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 2,
+            "name": "Hostels",
+            "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+            "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 8,
+          "userName": "mercedesvankeulen@gmail.com",
+          "name": "Mechi",
+          "lastName": "van Keulen",
+          "email": "mercedesvankeulen@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "ytAf0QlqR4ebWpTTFAPKlBiI0S6AhjQx"
+        }
+      }
+    ],
+    "address": null
+  },
+  {
+    "id": 3,
+    "name": "Cassa Luxury Homes",
+    "description": "El Cassa Luxury Homes, con vistas a la ciudad, se encuentra en Bogotá y cuenta con restaurante, recepción las 24 horas, bar, jardín, pileta al aire libre y parrilla. Hay wifi gratis. Todos los alojamientos tienen cocina completamente equipada con microondas, zona de estar con sofá, TV de pantalla plana, lavarropas y baño privado con ducha y secador de pelo. También hay heladera, horno y cafetera. El Cassa Luxury Homes ofrece alojamiento de 5 estrellas con bañera de hidromasaje y solárium. El alojamiento gimnasio, centro de negocios, instalaciones para reuniones/banquetes.",
+    "city": {
+      "id": 1,
+      "name": "Bogotá",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Departamentos",
+      "description": "¡Sentite como en casa! Elegí el departamento que más te guste.",
+      "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 15,
+        "title": "CassaLuxury_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/cassa-luxury-homes/5.jpeg"
+      },
+      {
+        "id": 13,
+        "title": "CassaLuxury_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/cassa-luxury-homes/3.jpeg"
+      },
+      {
+        "id": 14,
+        "title": "CassaLuxury_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/cassa-luxury-homes/4.jpeg"
+      },
+      {
+        "id": 12,
+        "title": "CassaLuxury_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/cassa-luxury-homes/2.jpeg"
+      },
+      {
+        "id": 11,
+        "title": "CassaLuxury_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/cassa-luxury-homes/1.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 4,
+    "name": "Magdalena Guest House",
+    "description": "El Magdalena Guest House, situado a 100 metros de la biblioteca Luis Ángel Arango, ofrece alojamiento con salón compartido, jardín y recepción 24 horas. Hay WiFi gratuita en todas las instalaciones. Este bed and breakfast alberga una terraza. El Magdalena Guest House está cerca de lugares de interés populares, como la plaza Bolívar, el Chorro de Quevedo y la iglesia de Nuestra Señora de Candelaria. El aeropuerto más cercano es el aeropuerto internacional de El Dorado, ubicado a 14 km.",
+    "city": {
+      "id": 1,
+      "name": "Bogotá",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 4,
+      "name": "Bed & Breakfast",
+      "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+      "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 16,
+        "title": "Magdalena_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/magdalena-guest-house/1.jpeg"
+      },
+      {
+        "id": 19,
+        "title": "Magdalena_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/magdalena-guest-house/4.jpeg"
+      },
+      {
+        "id": 17,
+        "title": "Magdalena_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/magdalena-guest-house/2.jpeg"
+      },
+      {
+        "id": 18,
+        "title": "Magdalena_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/magdalena-guest-house/3.jpeg"
+      },
+      {
+        "id": 20,
+        "title": "Magdalena_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/magdalena-guest-house/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [
+      {
+        "id": 22,
+        "checkInTime": "11:00:00",
+        "checkInDate": "2021-12-20",
+        "checkOutDate": "2021-12-24",
+        "product": {
+          "id": 4,
+          "name": "Magdalena Guest House",
+          "description": "El Magdalena Guest House, situado a 100 metros de la biblioteca Luis Ángel Arango, ofrece alojamiento con salón compartido, jardín y recepción 24 horas. Hay WiFi gratuita en todas las instalaciones. Este bed and breakfast alberga una terraza. El Magdalena Guest House está cerca de lugares de interés populares, como la plaza Bolívar, el Chorro de Quevedo y la iglesia de Nuestra Señora de Candelaria. El aeropuerto más cercano es el aeropuerto internacional de El Dorado, ubicado a 14 km.",
+          "city": {
+            "id": 1,
+            "name": "Bogotá",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 4,
+            "name": "Bed & Breakfast",
+            "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+            "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 8,
+          "userName": "mercedesvankeulen@gmail.com",
+          "name": "Mechi",
+          "lastName": "van Keulen",
+          "email": "mercedesvankeulen@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "ytAf0QlqR4ebWpTTFAPKlBiI0S6AhjQx"
+        }
+      }
+    ],
+    "address": null
+  },
+  {
+    "id": 5,
+    "name": "Hotel Central Plaza",
+    "description": "El Central Plaza está situado a 2 calles de la estación de subte de Ayurá, que ofrece fácil acceso a otras partes de Itagüí. Ofrece habitaciones modernas, restaurante, bañera de hidromasaje panorámica y conexión wifi gratis. Los alojamientos del Central Plaza están decorados con obras de arte coloridas y disponen de radio y TV LCD de 32 pulgadas con canales por cable. Las habitaciones tienen aire acondicionado o ventilador de techo. Hay room service. El restaurante presenta una decoración sencilla y elegante y sirve especialidades colombianas e internacionales. En el bar, hay una selección de licores selectos y cócteles exóticos.",
+    "city": {
+      "id": 2,
+      "name": "Medellín",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 25,
+        "title": "CentralPlaza_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-central-plaza/5.jpeg"
+      },
+      {
+        "id": 23,
+        "title": "CentralPlaza_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-central-plaza/3.jpeg"
+      },
+      {
+        "id": 24,
+        "title": "CentralPlaza_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-central-plaza/4.jpeg"
+      },
+      {
+        "id": 22,
+        "title": "CentralPlaza_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-central-plaza/2.jpeg"
+      },
+      {
+        "id": 21,
+        "title": "CentralPlaza_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-central-plaza/1.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [
+      {
+        "id": 29,
+        "checkInTime": "07:00:00",
+        "checkInDate": "2021-12-30",
+        "checkOutDate": "2022-02-10",
+        "product": {
+          "id": 5,
+          "name": "Hotel Central Plaza",
+          "description": "El Central Plaza está situado a 2 calles de la estación de subte de Ayurá, que ofrece fácil acceso a otras partes de Itagüí. Ofrece habitaciones modernas, restaurante, bañera de hidromasaje panorámica y conexión wifi gratis. Los alojamientos del Central Plaza están decorados con obras de arte coloridas y disponen de radio y TV LCD de 32 pulgadas con canales por cable. Las habitaciones tienen aire acondicionado o ventilador de techo. Hay room service. El restaurante presenta una decoración sencilla y elegante y sirve especialidades colombianas e internacionales. En el bar, hay una selección de licores selectos y cócteles exóticos.",
+          "city": {
+            "id": 2,
+            "name": "Medellín",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 1,
+            "name": "Hoteles",
+            "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+            "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 1,
+          "userName": "anto.legarreta@gmail.com",
+          "name": "Anto",
+          "lastName": "Legarreta",
+          "email": "anto.legarreta@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "9QLHyzA0yAnqxwOUd4b4M5Q3CPxnYQpc"
+        }
+      },
+      {
+        "id": 28,
+        "checkInTime": "07:00:00",
+        "checkInDate": "2021-12-16",
+        "checkOutDate": "2021-12-25",
+        "product": {
+          "id": 5,
+          "name": "Hotel Central Plaza",
+          "description": "El Central Plaza está situado a 2 calles de la estación de subte de Ayurá, que ofrece fácil acceso a otras partes de Itagüí. Ofrece habitaciones modernas, restaurante, bañera de hidromasaje panorámica y conexión wifi gratis. Los alojamientos del Central Plaza están decorados con obras de arte coloridas y disponen de radio y TV LCD de 32 pulgadas con canales por cable. Las habitaciones tienen aire acondicionado o ventilador de techo. Hay room service. El restaurante presenta una decoración sencilla y elegante y sirve especialidades colombianas e internacionales. En el bar, hay una selección de licores selectos y cócteles exóticos.",
+          "city": {
+            "id": 2,
+            "name": "Medellín",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 1,
+            "name": "Hoteles",
+            "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+            "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 1,
+          "userName": "anto.legarreta@gmail.com",
+          "name": "Anto",
+          "lastName": "Legarreta",
+          "email": "anto.legarreta@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "9QLHyzA0yAnqxwOUd4b4M5Q3CPxnYQpc"
+        }
+      },
+      {
+        "id": 30,
+        "checkInTime": "03:00:00",
+        "checkInDate": "2021-12-08",
+        "checkOutDate": "2021-12-08",
+        "product": {
+          "id": 5,
+          "name": "Hotel Central Plaza",
+          "description": "El Central Plaza está situado a 2 calles de la estación de subte de Ayurá, que ofrece fácil acceso a otras partes de Itagüí. Ofrece habitaciones modernas, restaurante, bañera de hidromasaje panorámica y conexión wifi gratis. Los alojamientos del Central Plaza están decorados con obras de arte coloridas y disponen de radio y TV LCD de 32 pulgadas con canales por cable. Las habitaciones tienen aire acondicionado o ventilador de techo. Hay room service. El restaurante presenta una decoración sencilla y elegante y sirve especialidades colombianas e internacionales. En el bar, hay una selección de licores selectos y cócteles exóticos.",
+          "city": {
+            "id": 2,
+            "name": "Medellín",
+            "country": "Colombia"
+          },
+          "category": {
+            "id": 1,
+            "name": "Hoteles",
+            "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+            "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+            "totalProducts": null
+          },
+          "images": [],
+          "features": [],
+          "ratings": [],
+          "averageRating": null,
+          "bookings": [],
+          "address": null
+        },
+        "user": {
+          "id": 12,
+          "userName": "martin72.gutierrez@gmail.com",
+          "name": "Martin",
+          "lastName": "Gutierrez",
+          "email": "martin72.gutierrez@gmail.com",
+          "role": null,
+          "enabled": true,
+          "verificationCode": "u7I2QS5bWq81oywgK0S5ySiycjfRnnNi"
+        }
+      }
+    ],
+    "address": null
+  },
+  {
+    "id": 6,
+    "name": "Masaya Hostel",
+    "description": "El Masaya Medellin se encuentra en Medellín, a 100 metros del parque El Poblado y a 600 metros del parque Lleras, y ofrece bar y terraza. Cuenta con cocina compartida, salón compartido y wifi gratis en todas las instalaciones. El hostel cuenta con pileta al aire libre, animación nocturna y recepción 24 horas. Los huéspedes pueden jugar al mesa de pool, al ping pong o al karaoke o usar el centro de negocios. Cerca del alojamiento hay varios lugares de interés, como el parque Linear Park President, el parque de la Bailarina y el Museo de Arte Moderno de Medellín. El aeropuerto Olaya Herrera es el más cercano y está a 2 km del Masaya Medellin. Se proporciona servicio de link con el aeropuerto por un adicional.",
+    "city": {
+      "id": 2,
+      "name": "Medellín",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 2,
+      "name": "Hostels",
+      "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+      "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 26,
+        "title": "Masaya_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/masaya-hostel/1.jpeg"
+      },
+      {
+        "id": 27,
+        "title": "Masaya_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/masaya-hostel/2.jpeg"
+      },
+      {
+        "id": 29,
+        "title": "Masaya_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/masaya-hostel/4.jpeg"
+      },
+      {
+        "id": 28,
+        "title": "Masaya_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/masaya-hostel/3.jpeg"
+      },
+      {
+        "id": 30,
+        "title": "Masaya_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/masaya-hostel/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 7,
+    "name": "Soul Apartahotel",
+    "description": "El Soul Aparthotel está ubicado en Medellín y ofrece alojamiento con pileta al aire libre, wifi gratis, centro de fitness y salón común. Los alojamientos disponen de aire acondicionado, lavarropas, caja fuerte, salón con TV de pantalla plana y cocina con microondas y heladera. El baño privado incluye secador de pelo y artículos de aseo gratuitos. Se pueden proporcionar toallas y ropa de cama por un adicional. El alojamiento se encuentra a 1,9 km del parque Lleras y a 2,2 km del parque de El Poblado. El aeropuerto Olaya Herrera, situado a 3 km del Soul Aparthotel, es el más cercano. Se proporciona un servicio de link con el aeropuerto por un adicional.",
+    "city": {
+      "id": 2,
+      "name": "Medellín",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Departamentos",
+      "description": "¡Sentite como en casa! Elegí el departamento que más te guste.",
+      "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 31,
+        "title": "Soul_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/soul-apartahotel/1.jpeg"
+      },
+      {
+        "id": 33,
+        "title": "Soul_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/soul-apartahotel/3.jpeg"
+      },
+      {
+        "id": 34,
+        "title": "Soul_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/soul-apartahotel/4.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Soul_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/soul-apartahotel/2.jpeg"
+      },
+      {
+        "id": 35,
+        "title": "Soul_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/soul-apartahotel/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 8,
+    "name": "Poblado Park",
+    "description": "El Poblado Park ofrece alojamiento con vistas a la ciudad, salón compartido y wifi gratis en Medellín, a poca distancia de El bed and breakfast, del parque Lleras y del parque Lineal President. Pueblito Paisa se encuentra a 3,2 km del alojamiento, mientras que la avenida 70 está a 6 km. El aeropuerto Olaya Herrera es el más cercano y está a 2 km del Poblado Park. Se proporciona servicio de link con el aeropuerto por un adicional.",
+    "city": {
+      "id": 2,
+      "name": "Medellín",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 4,
+      "name": "Bed & Breakfast",
+      "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+      "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 40,
+        "title": "PobladoPark_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/poblado-park/5.jpeg"
+      },
+      {
+        "id": 37,
+        "title": "PobladoPark_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/poblado-park/2.jpeg"
+      },
+      {
+        "id": 39,
+        "title": "PobladoPark_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/poblado-park/4.jpeg"
+      },
+      {
+        "id": 36,
+        "title": "PobladoPark_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/poblado-park/1.jpeg"
+      },
+      {
+        "id": 38,
+        "title": "PobladoPark_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/poblado-park/3.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 9,
+    "name": "Hotel El Peñon",
+    "description": "EEl Peñon Hotel está situado en el barrio El Peñón, a solo 100 metros de la zona financiera y del centro de la ciudad. La zona ofrece una amplia gama de restaurantes, bares, oficinas y centros de negocios. El desayuno y la WiFi están incluidos. Las habitaciones del Hotel El Peñón son amplias y cuentan con aire acondicionado, TV vía satélite y minibar. El baño privado incluye ducha. El desayuno se sirve a diario. Los restaurantes Chef Burguer y Turk House preparan platos locales e internacionales. En las inmediaciones hay una gran variedad de sitios para comer.",
+    "city": {
+      "id": 3,
+      "name": "Cali",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 42,
+        "title": "ElPenon_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-el-penon/2.jpeg"
+      },
+      {
+        "id": 41,
+        "title": "ElPenon_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-el-penon/1.jpeg"
+      },
+      {
+        "id": 43,
+        "title": "ElPenon_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-el-penon/3.jpeg"
+      },
+      {
+        "id": 44,
+        "title": "ElPenon_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-el-penon/4.jpeg"
+      },
+      {
+        "id": 45,
+        "title": "ElPenon_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-el-penon/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 10,
+    "name": "Moonshine Boutique",
+    "description": "El Moonshine Boutique Hostal se encuentra en Cali, a 1,5 km del teatro Jorge Isaacs, y ofrece jardín, habitaciones hipoalergénicas y wifi gratis. El alojamiento está a unos 2,4 km del parque Panamericano, a 2,4 km de la catedral de San Pedro y a 5 km de la plaza de toros de Cañaveralejo. Hay estacionamiento privado disponible por un adicional. Todas las habitaciones del hostel incluyen armario. Todos los alojamientos del Moonshine Boutique Hostal están equipados con baño privado y ropa de cama. En las inmediaciones hay varios lugares de interés, como la iglesia de La Ermita, el parque artesanal Loma de la Cruz y el teatro de la ciudad de Cali. El aeropuerto más cercano es el aeropuerto internacional Alfonso Bonilla Aragón, ubicado a 19 km del Moonshine Boutique Hostal.",
+    "city": {
+      "id": 3,
+      "name": "Cali",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 2,
+      "name": "Hostels",
+      "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+      "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 47,
+        "title": "Moonshine_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/moonshine-boutique/2.jpeg"
+      },
+      {
+        "id": 50,
+        "title": "Moonshine_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/moonshine-boutique/5.jpeg"
+      },
+      {
+        "id": 46,
+        "title": "Moonshine_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/moonshine-boutique/1.jpeg"
+      },
+      {
+        "id": 48,
+        "title": "Moonshine_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/moonshine-boutique/3.jpeg"
+      },
+      {
+        "id": 49,
+        "title": "Moonshine_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/moonshine-boutique/4.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 11,
+    "name": "Alejandria Real",
+    "description": "El Alejandria Real Ar se encuentra en Cali, en la región del Valle del Cauca, cerca del parque Panamericano, y ofrece alojamiento con wifi gratis y estacionamiento privado gratuito. Incluye cocina totalmente equipada y baño privado. El aparthotel está a 2,5 km de la plaza de toros de Cañaveralejo y a 3,9 km de la catedral de San Pedro. El aeropuerto más cercano es el aeropuerto Alfonso Bonilla Aragón, ubicado a 21 km del Alejandria Real Ar. El alojamiento ofrece un servicio de link con el aeropuerto por un adicional.",
+    "city": {
+      "id": 3,
+      "name": "Cali",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Departamentos",
+      "description": "¡Sentite como en casa! Elegí el departamento que más te guste.",
+      "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 55,
+        "title": "AlejandriaReal_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/alejandria-real/5.jpeg"
+      },
+      {
+        "id": 51,
+        "title": "AlejandriaReal_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/alejandria-real/1.jpeg"
+      },
+      {
+        "id": 52,
+        "title": "AlejandriaReal_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/alejandria-real/2.jpeg"
+      },
+      {
+        "id": 53,
+        "title": "AlejandriaReal_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/alejandria-real/3.jpeg"
+      },
+      {
+        "id": 54,
+        "title": "AlejandriaReal_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/alejandria-real/4.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 12,
+    "name": "Babilla Suites",
+    "description": "El Babilla Suites cuenta con sauna y baño turco y se encuentra en Cali, a 5 km de la plaza de toros de Cañaveralejo. Este bed and breakfast también ofrece pileta al aire libre, vistas al jardín, bar, estacionamiento privado gratuito y WiFi gratuita en todas las instalaciones. Las habitaciones están equipadas con TV de pantalla plana y baño privado. Hay una recepción 24 horas. Este bed and breakfast ofrece servicio de alquiler de bicicletas y se encuentra a 7 km del Parque Panamericano y a 9 km de la catedral de San Pedro. El aeropuerto internacional Alfonso Bonilla Aragón es el más cercano y queda a 25 km.",
+    "city": {
+      "id": 3,
+      "name": "Cali",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 4,
+      "name": "Bed & Breakfast",
+      "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+      "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 59,
+        "title": "Babilla_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/babilla-suites/4.jpeg"
+      },
+      {
+        "id": 58,
+        "title": "Babilla_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/babilla-suites/3.jpeg"
+      },
+      {
+        "id": 60,
+        "title": "Babilla_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/babilla-suites/5.jpeg"
+      },
+      {
+        "id": 56,
+        "title": "Babilla_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/babilla-suites/1.jpeg"
+      },
+      {
+        "id": 57,
+        "title": "Babilla_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/babilla-suites/2.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 13,
+    "name": "Hotel Catedral Inn",
+    "description": "El Hotel Catedral Inn se encuentra en Barranquilla, a 2,3 km del centro comercial Continental y a 2,8 km del centro comercial Miami, y ofrece salón compartido y terraza. El alojamiento se encuentra a 6 km del centro comercial Gran Boulevard y del centro comercial Blue Gardens y a 600 metros del teatro Amira de la Rosa. Ofrece recepción 24 horas, servicio de link con el aeropuerto, room service y wifi gratis. Todas las habitaciones incluyen armario, TV de pantalla plana, baño privado, ropa de cama y toallas. Todas las habitaciones del Hotel Catedral Inn cuentan con zona de estar. Todas las mañanas se sirve un desayuno americano y a la carta. El Hotel Catedral Inn también cuenta con centro de negocios y diarios y revistas.",
+    "city": {
+      "id": 4,
+      "name": "Barranquilla",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 64,
+        "title": "CatedralInn_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-catedral-inn/4.jpeg"
+      },
+      {
+        "id": 62,
+        "title": "CatedralInn_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-catedral-inn/2.jpeg"
+      },
+      {
+        "id": 63,
+        "title": "CatedralInn_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-catedral-inn/3.jpeg"
+      },
+      {
+        "id": 65,
+        "title": "CatedralInn_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-catedral-inn/5.jpeg"
+      },
+      {
+        "id": 61,
+        "title": "CatedralInn_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/hotel-catedral-inn/1.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 14,
+    "name": "La Quinta Bacana",
+    "description": "La Quinta Bacana se encuentra en Barranquilla, a 5 km del centro comercial Continental, y ofrece servicio de conserjería, habitaciones para no fumadores, salón compartido, WiFi gratuita en todas las instalaciones y jardín. Ofrece habitaciones familiares y terraza. El alojamiento dispone de recepción 24 horas, cocina compartida y servicio de cambio de divisa. El establecimiento está cerca de lugares de interés populares, como la iglesia de la Inmaculada Concepción, el Museo Romántico de Barranquilla y la catedral metropolitana de María Reina. El aeropuerto más cercano es el aeropuerto internacional Ernesto Cortissoz, ubicado a 12 km de La Quinta Bacana.",
+    "city": {
+      "id": 4,
+      "name": "Barranquilla",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 2,
+      "name": "Hostels",
+      "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+      "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 66,
+        "title": "LaQuintaBacana_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/la-quinta-bacana/1.jpeg"
+      },
+      {
+        "id": 69,
+        "title": "LaQuintaBacana_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/la-quinta-bacana/4.jpeg"
+      },
+      {
+        "id": 68,
+        "title": "LaQuintaBacana_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/la-quinta-bacana/3.jpeg"
+      },
+      {
+        "id": 70,
+        "title": "LaQuintaBacana_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/la-quinta-bacana/5.jpeg"
+      },
+      {
+        "id": 67,
+        "title": "LaQuintaBacana_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/la-quinta-bacana/2.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 15,
+    "name": "Palmagua",
+    "description": "El Palmagua dispone de pileta al aire libre y está situado en Barranquilla, a 400 metros del centro comercial Gran Boulevard. El centro comercial Blue Gardens queda a 900 metros. Hay WiFi gratuita y estacionamiento privado gratuito. Todos los alojamientos tienen aire acondicionado, TV de pantalla plana, cocina con fogones y toallas. El Palmagua se encuentra a 8 km del centro comercial Continental y el centro comercial Miami y a 16 km del aeropuerto Ernesto Cortissoz, el más cercano.",
+    "city": {
+      "id": 4,
+      "name": "Barranquilla",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Departamentos",
+      "description": "¡Sentite como en casa! Elegí el departamento que más te guste.",
+      "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 72,
+        "title": "Palmagua_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/palmagua/2.jpeg"
+      },
+      {
+        "id": 71,
+        "title": "Palmagua_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/palmagua/1.jpeg"
+      },
+      {
+        "id": 73,
+        "title": "Palmagua_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/palmagua/3.jpeg"
+      },
+      {
+        "id": 74,
+        "title": "Palmagua_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/palmagua/4.jpeg"
+      },
+      {
+        "id": 75,
+        "title": "Palmagua_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/palmagua/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 16,
+    "name": "Vestigium",
+    "description": "El Vestigium Bed and Breakfast ofrece aire acondicionado y se encuentra en Barranquilla, a 1,4 km del centro comercial Blue Gardens y a 2,1 km del centro comercial Gran Boulevard. Este bed and breakfast se encuentra a 7 km del centro comercial Continental y a 8 km del centro comercial Miami. Este bed and breakfast está equipado con TV de pantalla plana. Se proporcionan toallas y ropa de cama. El Vestigium Bed and Breakfast está cerca de varios lugares de interés, como el centro comercial VIVA, el centro comercial Buenavista y el consulado de la República Popular China. El aeropuerto internacional Ernesto Cortissoz es el más cercano y queda a 15 km.",
+    "city": {
+      "id": 4,
+      "name": "Barranquilla",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 4,
+      "name": "Bed & Breakfast",
+      "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+      "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 76,
+        "title": "Vestigium_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/vestigium/1.jpeg"
+      },
+      {
+        "id": 77,
+        "title": "Vestigium_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/vestigium/2.jpeg"
+      },
+      {
+        "id": 79,
+        "title": "Vestigium_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/vestigium/4.jpeg"
+      },
+      {
+        "id": 78,
+        "title": "Vestigium_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/vestigium/3.jpeg"
+      },
+      {
+        "id": 80,
+        "title": "Vestigium_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/vestigium/5.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 4,
+        "name": "Cocina",
+        "icon": "fas sink"
+      },
+      {
+        "id": 7,
+        "name": "Televisor",
+        "icon": "fas tv"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 17,
+    "name": "GrandView Hotel",
+    "description": "El GrandView Hotel Buenos Aires está ubicado en Buenos Aires y cuenta con restaurante, centro de fitness, bar y jardín. Este hotel de 4 estrellas ofrece room service y servicio de conserjería. Hay wifi gratis. Se puede facilitar estacionamiento privado por un adicional. Los alojamientos disponen de aire acondicionado, TV de pantalla plana vía satélite, hervidor de agua, escritorio, vistas a la ciudad, baño privado con ducha, bidet, secador de pelo y artículos de aseo gratuitos y Las habitaciones tienen armario.",
+    "city": {
+      "id": 5,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 83,
+        "title": "GrandView_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/grandview-hotel/3.jpeg"
+      },
+      {
+        "id": 85,
+        "title": "GrandView_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/grandview-hotel/5.jpeg"
+      },
+      {
+        "id": 81,
+        "title": "GrandView_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/grandview-hotel/1.jpeg"
+      },
+      {
+        "id": 82,
+        "title": "GrandView_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/grandview-hotel/2.jpeg"
+      },
+      {
+        "id": 84,
+        "title": "GrandView_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hotels/grandview-hotel/4.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 18,
+    "name": "Che Juan Hostel",
+    "description": "El Che Juan Hostel BA ofrece habitaciones con aire acondicionado y TV de pantalla plana por cable en el centro de Buenos Aires. También cuenta con recepción 24 horas, cocina compartida y WiFi gratuita en todas las instalaciones. El alojamiento cuenta con salón compartido, mostrador de información turística y servicio de venta de entradas. Los puntos de interés populares cerca del alojamiento incluyen la Basílica del Santísimo Sacramento, el Obelisco de Buenos Aires y el Teatro Colón. El aeropuerto más cercano es el aeropuerto Jorge Newbery, situado a 6 km del Che Juan Hostel BA.",
+    "city": {
+      "id": 5,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "category": {
+      "id": 2,
+      "name": "Hostels",
+      "description": "Un lugar para relajarse y hacer amigos. Los hostels son ideales para viajeros inquietos.",
+      "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 86,
+        "title": "CheJuan_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/che-juan-hostel/1.jpeg"
+      },
+      {
+        "id": 87,
+        "title": "CheJuan_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/che-juan-hostel/2.jpeg"
+      },
+      {
+        "id": 90,
+        "title": "CheJuan_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/che-juan-hostel/5.jpeg"
+      },
+      {
+        "id": 89,
+        "title": "CheJuan_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/che-juan-hostel/4.jpeg"
+      },
+      {
+        "id": 88,
+        "title": "CheJuan_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/hostels/che-juan-hostel/3.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 19,
+    "name": "Ara Homes",
+    "description": "Se encuentra a 1,1 km de la plaza Serrano. El Ara Homes Buenos Aires ofrece terraza y alojamiento con patio y conexión WiFi gratuita. Los alojamientos disponen de aire acondicionado, sala de estar con TV de pantalla plana, cocina con nevera y horno, lavadora, caja fuerte y baño privado con secador de pelo y artículos de aseo gratuitos. Todos los alojamientos tienen zona de estar y de comedor. Entre los lugares de interés cercanos al aparthotel se incluyen Bosques de Palermo, los lagos de Palermo y el parque ecológico Buenos Aires. El aeropuerto más cercano es el aeropuerto Jorge Newbery, ubicado a 3 km del Ara Homes Buenos Aires. El establecimiento ofrece un servicio de enlace con el aeropuerto por un suplemento.",
+    "city": {
+      "id": 5,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "category": {
+      "id": 3,
+      "name": "Departamentos",
+      "description": "¡Sentite como en casa! Elegí el departamento que más te guste.",
+      "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 95,
+        "title": "AraHomes_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/ara-homes/5.jpeg"
+      },
+      {
+        "id": 92,
+        "title": "AraHomes_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/ara-homes/2.jpeg"
+      },
+      {
+        "id": 94,
+        "title": "AraHomes_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/ara-homes/4.jpeg"
+      },
+      {
+        "id": 91,
+        "title": "AraHomes_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/ara-homes/1.jpeg"
+      },
+      {
+        "id": 93,
+        "title": "AraHomes_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/apartments/ara-homes/3.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 20,
+    "name": "ChillHouse",
+    "description": "El ChillHouse ofrece alojamiento en Buenos Aires, a 300 metros de la avenida Corrientes. Hay WiFi gratuita en todas las instalaciones. El establecimiento cuenta con mesa de ping pong. El cementerio de la Recoleta y la plaza Serrano están a 2 km del ChillHouse. El aeroparque Jorge Newbery, el aeropuerto más cercano, está a 5 km.",
+    "city": {
+      "id": 5,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "category": {
+      "id": 4,
+      "name": "Bed & Breakfast",
+      "description": "Un bed and breakfast siempre es buena idea. Mirá los mejores acá.",
+      "urlImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/153583464.jpg?k=41f3d2e8515807bd0df89812eda4f8600b47264f9fe43f4475e862de110eb618&o=&hp=1",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 98,
+        "title": "Chillhouse_03",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/chillhouse/3.jpeg"
+      },
+      {
+        "id": 99,
+        "title": "Chillhouse_05",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/chillhouse/4.jpeg"
+      },
+      {
+        "id": 96,
+        "title": "Chillhouse_02",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/chillhouse/1.jpeg"
+      },
+      {
+        "id": 100,
+        "title": "Chillhouse_01",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/chillhouse/5.jpeg"
+      },
+      {
+        "id": 97,
+        "title": "Chillhouse_04",
+        "image": "https://bucket-dishital-2.s3.amazonaws.com/products/bnb/chillhouse/2.jpeg"
+      }
+    ],
+    "features": [
+      {
+        "id": 4,
+        "name": "Cocina",
+        "icon": "fas sink"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 7,
+        "name": "Televisor",
+        "icon": "fas tv"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      },
+      {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": null
+  },
+  {
+    "id": 29,
+    "name": "Hotel de prueba - actualizado",
+    "description": "descripcion bla bla bla modificado",
+    "city": {
+      "id": 1,
+      "name": "Bogotá",
+      "country": "Colombia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 134,
+        "title": "imagen_prueba02",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310032053.jpg?k=75bc19c3dd3dafa8e3340f0d95eff89b09453aa34ca6877850044a85c370c13c&o=&hp=1"
+      },
+      {
+        "id": 139,
+        "title": "imagen_prueba02",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310032053.jpg?k=75bc19c3dd3dafa8e3340f0d95eff89b09453aa34ca6877850044a85c370c13c&o=&hp=1"
+      },
+      {
+        "id": 136,
+        "title": "imagen_prueba01",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/200924454.jpg?k=7e94bf7a568c8afc5a356b44a701d9d82c9f2b56a886e6f315a4c9f3823b6eb8&o=&hp=1"
+      },
+      {
+        "id": 140,
+        "title": "imagen_prueba01",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/200924454.jpg?k=7e94bf7a568c8afc5a356b44a701d9d82c9f2b56a886e6f315a4c9f3823b6eb8&o=&hp=1"
+      },
+      {
+        "id": 132,
+        "title": "imagenPrueba1",
+        "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/56/43/56434_v11.jpeg"
+      },
+      {
+        "id": 135,
+        "title": "imagen_prueba02",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310032053.jpg?k=75bc19c3dd3dafa8e3340f0d95eff89b09453aa34ca6877850044a85c370c13c&o=&hp=1"
+      },
+      {
+        "id": 138,
+        "title": "imagen_prueba01",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/200924454.jpg?k=7e94bf7a568c8afc5a356b44a701d9d82c9f2b56a886e6f315a4c9f3823b6eb8&o=&hp=1"
+      }
+    ],
+    "features": [
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 7,
+        "name": "Televisor",
+        "icon": "fas tv"
+      },
+      {
+        "id": 4,
+        "name": "Cocina",
+        "icon": "fas sink"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": {
+      "id": 8,
+      "address": "mi casa modficado",
+      "latitude": "-31.034894686023375",
+      "longitude": "-64.500324402775"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Riu Plaza España",
+    "description": "El alojamiento Riu Plaza España está muy bien situado en el centro de Madrid y ofrece habitaciones con aire acondicionado, un restaurante, wifi gratis y un bar. Este hotel de 4 estrellas también cuenta con room service, servicio de conserjería, pileta climatizada al aire libre, centro de fitness, discoteca y recepción 24 horas. Y es muy lindo",
+    "city": {
+      "id": 5,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "category": {
+      "id": 1,
+      "name": "Hoteles",
+      "description": "Hoteles económicos, habitaciones de lujo y todo lo que te imagines",
+      "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg",
+      "totalProducts": null
+    },
+    "images": [
+      {
+        "id": 144,
+        "title": "Recepción",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/217566678.jpg?k=035307b6f0bbcf7ea6550bf57b189a539d3234200d7d32ed59a578c906da142d&o=&hp=1"
+      },
+      {
+        "id": 141,
+        "title": "Exterior",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/217552063.jpg?k=1de36447bd7dfa11e06badd773a05c71e8dfbf0351c884811633c85243beaa0d&o=&hp=1"
+      },
+      {
+        "id": 142,
+        "title": "Habitación",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207314317.jpg?k=405850adb540ee4bfb274d85314a5f9a592d13137ccc274c6eed70bbaf65b191&o=&hp=1"
+      }
+    ],
+    "features": [
+      {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+      },
+      {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+      },
+      {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+      },
+      {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0,
+    "bookings": [],
+    "address": {
+      "id": 9,
+      "address": "Calle Gran Vía, 84",
+      "latitude": "-31.034894686023375",
+      "longitude": "-64.500324402775"
+    }
+  }
+]

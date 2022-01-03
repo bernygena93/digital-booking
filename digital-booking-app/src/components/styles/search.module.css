@@ -1,0 +1,187 @@
+/** @format */
+
+.containerSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-dark);
+  width: 100%;
+  padding-top: 6rem;
+  height: 30rem;
+  color: var(--color-white);
+  gap: 10px;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  width: 366px;
+}
+
+.pageDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 2%;
+  width: 366px;
+}
+.button {
+  padding-left: 0.5rem;
+}
+
+.button,
+select,
+.input {
+  width: 366px;
+  height: 40px;
+  font-family: "Poppins";
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.buttonSearch {
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  font-family: "Poppins-SemiBold";
+  cursor: pointer;
+}
+
+.buttonSearch:hover{
+  transform: scale(1.02);
+}
+
+.buttonSearch:active {
+    transform: translate(3px); 
+}
+
+.inputSearch {
+  width: 366px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.headerSearch {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearch h1 {
+  font-family: "Poppins-Bold";
+  font-size: 1.8rem;
+}
+
+.headerSearch p {
+  font-size: 1rem;
+}
+
+.buttonCalendar {
+  width: 40%;
+  height: 30px;
+  margin-top: -40%;
+  margin-bottom: 10px;
+  margin-left: 55%;
+  background-color: var(--color-dark);
+  border-radius: 5px;
+  border: none;
+  color: var(--color-white);
+}
+
+.buttonCalendarMobile {
+  width: 80%;
+  height: 30px;
+  margin-top: -40%;
+  margin-bottom: 10px;
+}
+.inputCalendar {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3%;
+  background-color: var(--color-white);
+  color: var(--color-medium);
+  width: 366px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 14px;
+}
+.iconColor {
+  color: var(--color-yellow);
+}
+.textInput {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.divider {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  width: 1px;
+  height: 80%;
+  border-right: 1px solid black;
+}
+@media screen and (min-width: 769px) {
+  .mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .pageDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .inputCalendar {
+    width: 280px;
+  }
+  .containerSearch {
+    height: 297px;
+    padding-top: 80px;
+  }
+  .options {
+    flex-direction: row;
+  }
+  .buttonSearch {
+    width: 166px;
+  }
+  .button {
+    width: 285px;
+  }
+  .inputSearch {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .buttonSearch {
+    width: 206px;
+  }
+  .button {
+    width: 422px;
+  }
+  .inputSearch {
+    width: 280px;
+  }
+}

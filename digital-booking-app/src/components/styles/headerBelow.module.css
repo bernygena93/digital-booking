@@ -1,0 +1,19 @@
+/* Header */
+.headerBelow{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    background-color: var(--color-dark);
+    color:var(--color-white);
+    margin-top: 4.5rem;
+    box-shadow: 0 8px 6px -4px var(--color-shadow);
+}
+
+.headerBelow h2 {
+    font-size: 1.2rem;
+}
+
+.arrowBack {
+    cursor: pointer;
+}

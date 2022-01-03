@@ -1,0 +1,240 @@
+/** @format */
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url("../../font/Poppins-SemiBold.ttf");
+}
+.containerAdmin {
+  display: flex;
+}
+.sidePanel {
+  width: 0%;
+}
+
+.containerPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4.5rem;
+  width: 100%;
+  background-color: var(--color-cream);
+}
+.containerHeader,
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ececec;
+  width: 100%;
+  height: 16rem;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.header {
+  margin-bottom: 1rem;
+}
+
+.titlePanel {
+  font-family: "PoppinsSemiBold";
+  font-size: 0.9rem;
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  margin-bottom: -1rem;
+}
+.buttonSearchId {
+  font-family: "PoppinsSemiBold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-dark);
+  color: white;
+  border: none;
+  gap: 1rem;
+  cursor: pointer;
+}
+.buttonSearchId:hover {
+  transform: scale(1.03);
+}
+.buttonCreate {
+  font-family: "PoppinsSemiBold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-dark);
+  background-color: transparent;
+  color: var(--color-dark);
+  gap: 1rem;
+  cursor: pointer;
+}
+.buttonCreate:hover {
+  transform: scale(1.03);
+}
+.linkButtonCreate {
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  text-decoration: none;
+  color: var(--color-dark);
+  font-family: "PoppinsSemiBold";
+}
+
+.inputSearchId {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+  width: 90%;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px;
+  border: 0.5px solid var(--color-medium-gray);
+  padding-left: 0.6rem;
+  background-color: white;
+}
+.inputPanel {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.inputPanel::placeholder {
+  color: var(--color-medium-gray);
+}
+.containerSpinner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    flex-direction: row;
+  }
+  .containerHeader {
+    height: 7.5rem;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .containerPanel {
+    margin-left: 10%;
+  }
+
+  .inputSearchId {
+    width: 100%;
+  }
+  .buttonCreate {
+    width: 80%;
+  }
+  .buttonSearchId {
+    width: 70%;
+  }
+
+  .sidePanel {
+    position: fixed;
+    height: 100vh;
+    width: 10%;
+    background-color: var(--color-dark);
+    padding-top: 5rem;
+  }
+  .optionsSidePanel {
+    display: flex;
+    flex-direction: column;
+  }
+  .optionButton {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--color-dark);
+    border: none;
+  }
+  .optionButton:hover {
+    background-color: #0b0f11;
+    cursor: pointer;
+  }
+  .iconPanel {
+    color: white;
+  }
+  .iconPanelSelected {
+    color: var(--color-yellow);
+  }
+
+  .iconPanel:active {
+    color: var(--color-yellow);
+  }
+}
+@media screen and (min-width: 1365px) {
+  .panelName{
+    font-family: "Poppins-Medium";
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .containerPanel {
+    margin-left: 15%;
+    margin-top:7%;
+  }
+  .containerHeader {
+    flex-direction: row;
+    align-items: center;
+    width: 87%;
+    height: unset;
+    margin-bottom: -1rem;
+    padding: 2rem 2rem;
+    border: 1px solid var(--color-medium-gray);
+  }
+  
+  .header {
+    height: unset;
+    margin-bottom: unset;
+    padding: unset;
+  }
+
+  .titlePanel {
+    display: flex;
+    margin-top: -0.8rem;
+    width: 30%;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .sidePanel {
+    width: 16%;
+  }
+  .linkSidePanel {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  .optionButton {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 18%;
+    font-size: 18px;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--color-dark);
+    border: none;
+    gap: 1rem;
+    color: white;
+  }
+
+  .buttonCreate, .inputSearchId, .buttonSearchId {
+    padding: 0.6rem 1rem;
+  }
+
+  
+  
+}

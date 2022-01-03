@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Hoteles",
+    "description": "Hoteles de alojamiento",
+    "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hostels",
+    "description": "Hostels de alojamiento compartido",
+    "urlImage": "https://www.reportur.com/wp-content/uploads/2019/11/hostel2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Departamentos",
+    "description": "Departamentos para alojamiento privado",
+    "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bed and Breakfast",
+    "description": "Asentamiento sencillo y económico",
+    "urlImage": "https://www.hogares.cl/wp-content/uploads/2018/06/SLA_3734.jpg"
+  }
+]

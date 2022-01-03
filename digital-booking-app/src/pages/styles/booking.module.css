@@ -1,0 +1,346 @@
+/* FORMULARIO */
+
+.container{
+    background-color: var(--color-dark-low);
+    padding: 2rem 2rem;
+
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.h2Form{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-family: "Poppins-Bold";
+   
+}
+.coreData{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 3px var(--color-shadow);
+}
+.labelName, .labelCity, .labelEmail, .labelLastName{
+    font-size: 12px;
+    font-family: "Poppins-SemiBold";
+    margin: 0px 10px;
+}
+.inputBooking{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #E5E5E5;
+    font-family: "Poppins-SemiBold";
+    border:none;
+    border-radius: 5px;
+}
+
+/* RESERVA */
+
+
+.h2Booking{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    padding-top:2rem;
+    font-family: "Poppins-Bold";   
+}
+.divCalendar{
+    background-color: var(--color-white);
+}
+
+/* HORARIO */
+
+
+.h2Hour{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    padding-top:2rem;
+    font-family: "Poppins-Bold"
+}
+.divSelect{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 3px var(--color-shadow);
+    margin-bottom: 1rem;
+}
+.iconAriival{
+    display: flex;
+    align-items: center;
+}
+.pArrival{
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-family: "Poppins-SemiBold";
+}
+.labelArrival{
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: "Poppins-SemiBold";
+}
+.selectHour{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px var(--color-shadow);
+    
+}
+
+/* DETALLE */
+.h2Detail{
+    padding: 0.5rem 0rem;
+}
+.divBooking{
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 3px var(--color-shadow);
+    border-radius: 10px;
+}
+.divDetailCheckButton{
+    padding: 10px;
+}
+.divDetails{
+    width: 100%;
+}
+.imgDetail{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+.nameCategory{
+    color:  var(--color-medium);
+}
+.cityCountry{
+    padding: 10px 0px;
+}
+
+.pCheckIn, .pCheckOut{
+    padding: 1rem 0;
+    font-family: 'Poppins-SemiBold';
+    font-size: 1.2rem;
+}
+
+.divCheckIn, .divCheckOut{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dateBooking{
+    padding: 1rem 0px;
+    font-family: 'Poppins-Bold';
+    font-size: 0.8rem;
+}
+
+.buttonBooking{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    width: 100%;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonBooking:hover {
+    transform: scale(1.02);
+}
+
+.containerPolicy{
+    background-color: var(--color-white);
+    padding-top: 10px;
+}
+
+.categoryContainer {
+    display: flex;
+    align-items: center;
+}
+
+.categoryContainer h3 {
+    font-weight: 600;
+}
+
+/* ERRORS */
+.errorMessage {
+    width: 100%;
+    color: rgba(255, 0, 0, 1);
+    display: flex;
+    margin-top: 0.3rem;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+  }
+
+/*OVERLAY*/
+.overlay {
+    display: block;
+    position: fixed; 
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-dark);
+    opacity: 0.95; 
+    z-index: 2; 
+  }
+  .h2Detail{
+    padding-left: 5px;
+    font-family: "Poppins-Bold";
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (min-width: 769px) {
+    /* FORMULARIO */
+    .divNameLastName{
+        display: flex;
+    }
+    .inputBooking{
+        margin: 10px 0px;
+    }
+    .labelName, .labelLastName, .labelEmail, .labelCity{
+       width: 50%;
+    }
+    .divEmailCity{
+        display: flex;
+    }
+
+    /* HORARIO */
+
+    .selectHour{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    /* DETALLE */
+
+    .divBooking{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        height: 100%;
+        width: 100%;
+    }
+    .h2Detail{
+
+        font-family: "Poppins-Bold";
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+    .imgDetail{
+        object-fit: cover;
+        height: 100%;
+        border-radius: 0;
+  
+    }
+    .pCheckIn, .dateBooking, .pCheckOut, .dateBooking{
+        padding: 1rem 0px;
+    }
+    .dateBooking{
+        font-family: 'Poppins-Bold';
+    }
+
+    .cityCountry, .SmallStar{
+        padding: 0.4rem 0;
+    }
+    .divh2Image{
+        width: 100%;
+        height: 23rem;
+        border-radius: 5%;
+    }
+    .divDetailCheckButton{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem ;
+        grid-row-gap: 0.45rem;
+    }
+    .divImgDetail{
+        display: flex;
+    }
+    .buttonBooking{
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+    .divSelect{
+        
+        margin-bottom: 0;
+    }
+    .divFormCalendarHour{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .containerBooking{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .coreData{
+        padding: 1rem;
+    }
+
+    .imgDetail{
+        border-radius: 0;
+    }
+    .cityCountry{
+        padding: 20px 10px;
+    }
+    .pCheckIn{
+        padding: 20px 10px;
+    }
+    .pCheckOut{
+        padding: 20px 10px;
+    }
+    .dateBooking{
+        font-family: 'Poppins-Semibold';
+        font-size: 1rem;
+    }
+    .nameCategory{
+        padding: 1rem 0.5rem 1rem 10px;
+
+    }
+    .productName{
+        padding: 0 10px;
+    }
+
+    .buttonBooking{
+        margin: 40px 0px 20px 20px;
+        width: 90%;
+    }
+    .pCheckOut, .pCheckIn{
+        padding: 30px 20px;
+    }
+    .dateBooking, .dateBooking{
+        padding: 30px 20px;
+    }
+    .divImgDetail{
+        flex-direction: column;
+    }
+    .divFormCalendarHour{
+        justify-content: space-between;
+    
+    }
+    .divBooking{
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .divBooking{
+        width: 35rem;
+    }
+}

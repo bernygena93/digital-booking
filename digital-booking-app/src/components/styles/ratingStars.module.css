@@ -1,0 +1,14 @@
+.ratingStars{
+    width: max-content;
+    padding-left: 0.5rem;
+}
+
+.filledStarIcon{
+
+    color: var(--color-yellow)
+}
+
+.notFilledStarIcon{
+
+    color: var(--color-medium-gray)
+}

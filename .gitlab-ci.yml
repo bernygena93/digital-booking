@@ -1,0 +1,63 @@
+stages:
+  - build front
+  - build back
+  - deploy front
+  - deploy back
+
+build frontend:
+  stage: build front
+  image: node:14.16.0
+  script:
+    - cd digital-booking-app  
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - digital-booking-app/build
+  only:
+    - main
+
+deploy frontend:
+  stage: deploy front
+  image: 
+    name: amazon/aws-cli
+    entrypoint: [""]
+  script:
+    - pwd
+    - ls
+    - aws --version
+    - aws s3 rm s3://www.digitalbooking.co --recursive
+    - aws s3 cp digital-booking-app/build s3://www.digitalbooking.co --recursive
+  only:
+    - main
+
+build backend:
+  stage: build back
+  image: maven
+  script:
+    - cd digital-booking-api
+    - mvn clean package
+  artifacts:
+    paths:
+      - digital-booking-api/target/digital-booking-api-0.0.1-SNAPSHOT.jar
+  only:
+    - main
+
+deploy backend:
+  stage: deploy back
+  image: alpine
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add bash
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ssh -o StrictHostKeyChecking=no ubuntu@44.199.165.123 "sudo systemctl stop consoleapp.service"
+    - scp -o StrictHostKeyChecking=no digital-booking-api/target/digital-booking-api-0.0.1-SNAPSHOT.jar ubuntu@44.199.165.123:~/digitalbooking
+    - ssh -o StrictHostKeyChecking=no ubuntu@44.199.165.123 "sudo systemctl start consoleapp.service"
+  only:
+    - main

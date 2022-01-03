@@ -1,0 +1,364 @@
+.spinnerContainer {
+  display: flex;
+  width: 100%;
+  height: 35rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins-SemiBold";
+}
+
+/* Container and title */
+.containerAdminProduct {
+  background-color: var(--color-dark-low);
+  padding-bottom: 6rem;
+  padding-top: 1.5rem;
+}
+
+.containerAdminProductTitle {
+  padding-left: 1.5rem;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+}
+
+/* Form */
+.formAdminProduct {
+  height: 100%;
+  background-color: var(--color-white);
+  box-shadow: 0 8px 6px -4px var(--color-shadow);
+  padding: 1rem 1.5rem;
+}
+
+/* All labels and inputs */
+.labelName {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.inputAdminProduct {
+  margin: 0.6rem 0;
+  padding: 0.7rem;
+  border: none;
+  box-shadow: 0px 0px 3px 0.5px var(--color-shadow);
+  border-radius: 5px;
+  height: 2.7rem;
+}
+
+
+h3.divDataTitle {
+  margin: 2.5rem 0 1rem 0;
+  color: var(--color-dark);
+}
+
+/* Button submit information product */
+.divSubmitAdminProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.buttonSubmitAdminProduct {
+  margin: 1.5rem 0 1.5rem 0;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 6px 6px -4px var(--color-shadow);
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.buttonSubmitAdminProduct:hover {
+  transform: scale(1.02);
+}
+
+/* Button plus for adding product data */
+.buttonAddAdminProduct {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Button close for deleting product data */
+.buttonDeleteAdminProduct {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: var(--color-white);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Input upload img and icon */
+.divInputUploadImg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  border-radius: 5px;
+}
+
+.containerInputImgAndImages{
+  background-color: var(--color-dark-low);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divImagesList{
+  background-color: var(--color-white);
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.divImagesList h4{
+  text-align: center;
+}
+
+.divImageList{
+  height: 4rem;
+  width: 6rem;
+  
+}
+.imageList{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.divInputCheckboxFeature {
+  padding: 1rem 1rem;
+  background-color: var(--color-white);
+  border-radius: 5px;
+}
+.divInputUploadUrlImg {
+    width: 80%;
+    
+}
+
+.inputUpload {
+  width: 100%;
+}
+
+.inputCheckbox {
+  padding: 1rem 0.6rem;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 3px 0.5px var(--color-shadow);
+  cursor: pointer;
+}
+
+
+.divCheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.iconAndTitleFeature {
+  display: flex;
+}
+
+.featureName {
+  font-family: "Poppins";
+  margin-left: 1rem;
+  color: var(--color-dark);
+  font-weight: 300;
+}
+
+.inputCheckbox input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  border: solid 2px var(--color-yellow);
+  cursor: pointer;
+}
+
+.inputCheckbox input[type="checkbox"]:hover {
+  background-color: var(--color-yellow);
+}
+
+.inputCheckbox input[type="checkbox"]:checked {
+  background-color: var(--color-yellow);
+}
+
+.checkedIcon {
+  color: var(--color-white);
+  font-size: 0.7rem;
+  display: block;
+  position: relative;
+  left: 1.1rem;
+}
+
+textarea{
+    resize: none;
+}
+
+.selectCategory,
+.selectCity {
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0.5px var(--color-shadow);
+  width: 100%;
+  margin: 0.6rem 0;
+  height: 2.7rem;
+  padding-right: 1rem;
+}
+
+#categorySelect, #citySelect {
+  margin-top: -0.6rem;
+  width: 100%;
+}
+
+/* PopUp confirmation */
+.overlay {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-dark);
+  opacity: 0.65;
+  z-index: 2;
+}
+
+/* Error message */
+.submitErrorMessage{
+  color: red;
+  text-align: center;
+}
+.inputErrorMessage{
+  color: red;
+}
+
+
+@media screen and (min-width: 769px) {
+  .divInputCheckboxFeature {
+    padding: 1rem 0rem;
+  }
+
+  .containerAdminProduct {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .containerAdminProductTitle {
+    padding-left: 0;
+  }
+  .formAdminProduct {
+    border-radius: 5px;
+    padding: 1rem 3rem;
+  }
+  .divInputUploadUrlImg {
+    width: 90%;
+}
+  .divInputUploadImg {
+    width: 100%;
+}
+
+  .divInputUpload {
+      display: grid;
+      grid-template-columns: 48% 48%;
+      column-gap: 1.5rem;
+  }
+ 
+
+  .firstData {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 43% 7%;
+    column-gap: 0.6rem;
+  }
+
+  .firstDataDescription {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    width: calc(100% - 0.8rem);
+  }
+
+  .firstData .labelName {
+    width: calc(100% - 0.6rem);
+  }
+
+  h3.divDataTitle {
+    margin: 1.5rem 0 1rem 0;
+  }
+
+  .buttonSubmitAdminProduct {
+    width: 23rem;
+    padding-right: 9rem;
+    padding-left: 9rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .policyData {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 70% 5%;
+    column-gap: 1.5rem;
+  }
+  .policyData h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    margin-top: 2rem;
+  }
+  .houseRules {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  .healthAndSecurity {
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  .cancelPolicy {
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+  .divInputUpload {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 1.5rem;
+}
+}

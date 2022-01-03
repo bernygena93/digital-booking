@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Apto Mascotas",
+        "icon": "fas paw"
+    },
+    {
+        "id": 2,
+        "name": "WiFi",
+        "icon": "fas wifi"
+    },
+    {
+        "id": 3,
+        "name": "Estacionamiento gratuito",
+        "icon": "fas car"
+    },
+    {
+        "id": 4,
+        "name": "Cocina",
+        "icon": "fas sink"
+    },
+    {
+        "id": 5,
+        "name": "Pileta",
+        "icon": "fas swimmer"
+    },
+    {
+        "id": 6,
+        "name": "Aire Acondicionado",
+        "icon": "far snowflake"
+    },
+    {
+        "id": 7,
+        "name": "Televisor",
+        "icon": "fas tv"
+    }
+]

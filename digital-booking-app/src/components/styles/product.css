@@ -1,0 +1,96 @@
+
+.calendar .rmdp-week-day, 
+.datepicker .rmdp-week-day {
+    color: var(--color-dark);
+}
+
+.calendar .rmdp-arrow, 
+.datepicker  .rmdp-arrow{
+    border: solid var(--color-dark);
+    border-width: 0 2px 2px 0;
+}
+
+/* .calendar .rmdp-header-values span{
+    font-family: "Poppins-Bold";
+} */
+
+.calendar .rmdp-header{
+    margin-bottom: 1rem;
+}
+
+
+.calendar.rmdp-wrapper.rmdp-shadow {
+    width: 100%;
+
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.calendar .rmdp-calendar {
+    width: 100%;
+}
+
+.calendar .rmdp-header span{
+    font-size: 1rem;
+}
+
+.calendar .rmdp-day-picker .rmdp-today span, 
+.datepicker .rmdp-day-picker .rmdp-today span{
+    background-color: var(--color-yellow);
+}
+
+.calendar .rmdp-day-picker .rmdp-range, 
+.datepicker .rmdp-day-picker .rmdp-range{
+    background-color: var(--color-yellow);
+    box-shadow:unset;
+}
+
+.calendar .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover,
+.datepicker .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover{
+    background-color: var(--color-yellow);
+    color: #fff;
+}
+
+
+.calendar .rmdp-day-picker {
+    flex-direction: column;
+}
+
+.calendar .rmdp-day-picker .rmdp-week div {
+    font-family: "Poppins-Bold";
+    font-size: 0.9rem;
+}
+
+.calendar .rmdp-day-picker .rmdp-week div span{
+    font-family: "Poppins-Bold";
+    font-size: 0.9rem;
+}
+.calendar .rmdp-week .rmdp-day{
+    width: 3rem;
+    height: 3rem;
+}
+
+.calendar .rmdp-arrow-container:hover,
+.datepicker .rmdp-arrow-container:hover{
+    background-color: var(--color-yellow);
+}
+
+
+@media screen and (min-width: 414px) {
+    .calendar .rmdp-day-picker {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .calendar .rmdp-week .rmdp-day{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* @media (max-height: 450px), (max-width: 450px){
+    .rmdp-day span {
+        font-size: 2rem;
+        padding-left: 0.5px;
+    }
+
+} */

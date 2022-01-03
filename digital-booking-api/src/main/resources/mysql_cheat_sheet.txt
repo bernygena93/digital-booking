@@ -1,0 +1,14 @@
+The contents of this file are for exclusive use of Grupo 7 :)
+
+Para usar MySQL como motor de Base de Datos para nuestro proyecto, es necesario inicializar manualmente una BD con MySQL.
+A continuación los pasos para dicha inicialización:
+    1. Dirigirse a la CLI (local o remota)
+    2. Verificar que MySQL esté instalado en la máquina que vamos a usar
+    3. Inicializar MySQL -->
+        sudo mysql --password;
+    4. Crear la base de datos -->
+        create database db_example;
+    5. Crear el usuario para evitar usar el superuser (sudo) -->
+        create userEntity 'springuser'@'%' identified by 'ThePassword';
+    6. Conceder permisos de superuser al usuario recién creado.
+        grant all on db_example.* to 'springuser'@'%';

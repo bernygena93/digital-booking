@@ -1,0 +1,171 @@
+/** @format */
+
+.registerContainer {
+  background-color: var(--color-cream);
+  margin-top: 4.5rem;
+  padding-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-family: "Poppins-Bold";
+  font-size: 1.5rem;
+  color: var(--color-dark);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  margin-bottom: 3rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.2rem;
+}
+
+.nameAndLastNameInput {
+  display: flex;
+}
+
+.inputLabelRegister {
+  color: var(--color-dark);
+  width: 100%;
+  padding: 0.2rem;
+  font-family: "Poppins-SemiBold";
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.inputRegister,
+.inputRegisterFail {
+  width: 100%;
+  padding: 0.6rem;
+  box-shadow: 2px;
+  box-shadow: 0px 3px 3px var(--color-shadow);
+  border-radius: 5px;
+  font-family: "Poppins-SemiBold";
+  border: 0;
+  background-color: var(--color-white);
+}
+
+.createAccountButton {
+  width: 100%;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border-radius: 5px;
+  border: none;
+  padding: 0.7rem 0;
+  margin-top: 2rem;
+  font-family: "Poppins-SemiBold";
+  cursor: pointer;
+}
+
+.createAccountButton:hover {
+  transform: scale(1.02);
+}
+.createAccountButtonClicked {
+  width: 100%;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border-radius: 5px;
+  border: none;
+  padding: 0.7rem 0;
+  margin-top: 2rem;
+  font-family: "Poppins-SemiBold";
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+.loginLink {
+  color: var(--color-yellow);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: "Poppins-SemiBold";
+}
+
+.alreadyHaveAccount {
+  font-family: "Poppins-SemiBold";
+  font-size: 0.8rem;
+  gap: 2px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.alreadyHaveAccount small {
+  cursor: pointer;
+}
+
+.iconEye {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  size: 10px;
+  cursor: pointer;
+}
+
+.eyeContainer {
+  position: relative;
+  display: flex;
+}
+
+.inputRegisterfail {
+  border: 1px solid rgba(255, 0, 0, 1);
+  background-color: rgba(255, 225, 225, 1);
+}
+
+.errorMessage {
+  width: 100%;
+  color: rgba(255, 0, 0, 1);
+  display: flex;
+  margin-top: 0.3rem;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+
+.spinnerHidden {
+  border: 4.5px solid rgba(255, 255, 255, 0.7);
+  border-left-color: var(--color-cream);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .formContainer {
+    width: 346px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .formContainer {
+    width: 448px;
+  }
+
+  .inputName {
+    width: 100%;
+    display: flex;
+  }
+}

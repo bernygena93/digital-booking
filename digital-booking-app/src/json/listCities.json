@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Bogotá",
+    "country": "Colombia"
+  },
+  {
+    "id": 2,
+    "name": "Medeshín",
+    "country": "Colombia"
+  },
+  {
+    "id": 3,
+    "name": "Cali",
+    "country": "Colombia"
+  },
+  {
+    "id": 4,
+    "name": "Barranquilla",
+    "country": "Colombia"
+  },
+  {
+    "id": 5,
+    "name": "Buenos Aires",
+    "country": "Argentina"
+  },
+  {
+    "id": 6,
+    "name": "Córdoba",
+    "country": "Argentina"
+  },
+  {
+    "id": 7,
+    "name": "Rosario",
+    "country": "Argentina"
+  },
+  {
+    "id": 8,
+    "name": "Mar del Plata",
+    "country": "Argentina"
+  }
+]

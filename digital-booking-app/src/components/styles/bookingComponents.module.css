@@ -1,0 +1,405 @@
+.sectionContainer {
+    z-index: 5;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          width: auto;
+          height: auto;
+          -webkit-transform: translate(-50%,-50%);
+          -moz-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+          -o-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.confirmTable {
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 3px 3px var(--color-shadow);
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+
+.dataTable, .datesTable, .confirmationQ{
+    width: 100%;
+}
+
+.dataTable, .datesTable {
+    color: var(--color-medium);
+}
+
+.tableHr {
+    border-top: 1px solid var(--color-medium-gray);
+    opacity: 0.7;
+    margin: 1rem 0;
+}
+
+.tableTitle  {
+    color:var(--color-dark);
+    font-size: 1.2rem;
+    font-family:"Poppins-Bold";
+    margin-bottom: 1rem;
+}
+
+.bookingItem, .checkOut {
+    text-align: right;
+}
+
+.bookingItemTitle {
+    vertical-align: top;
+}
+
+.arrowColumn {
+    width: 33%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.checkOutTitle, .checkInTitle {
+    font-size: 0.8rem;
+
+}
+
+.checkInDate, .checkOutDate {
+    font-family: "Poppins-Bold";
+    color: var(--color-dark);
+}
+
+.confirmationQ{
+    margin-top: 1.3rem;
+}
+
+.confirmationTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmationTitle h3 {
+    color: var(--color-dark);
+    font-size: 1rem;
+    font-family:"Poppins-SemiBold";
+    margin-bottom: 0.5rem;
+}
+
+
+.acceptButtonCol {
+    text-align: right;
+}
+
+.acceptButton, .cancelButton {
+    height: 2.5rem;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-family: 'Poppins-SemiBold';
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.acceptButton {
+    margin-top: 0.7rem;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+
+}
+
+
+.bookingImageContainer {
+    border-radius: 0.5rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.bookingImageContainer img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.cardContainer {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 5px 0px var(--color-shadow);
+    color: var(--color-dark);
+
+}
+
+.sectionTitle {
+    color:var(--color-gray);
+    font-family: Poppins-Medium;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+}
+
+.nameAndRatingContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bookingDates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datesContainer {
+    padding: 1rem 0;
+}
+
+.checkInDetail, .checkOutDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer h4 {
+    font-family: Poppins-Medium;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.arrows {
+    color: var(--color-medium-gray);
+}
+
+.hrBooking {
+    border: 0;
+    border-top: 1px solid var(--color-medium-gray);
+}
+
+.firstHr {
+    margin-top: 1rem;
+}
+
+.seeProductBtnMobile, .seeProductBtnDesktop {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border:none;
+    border-radius: 0.5rem;
+    font-family: "Poppins-Semibold";
+    margin-top: 1rem;
+}
+
+.productName {
+    font-family: "Poppins-Bold";
+    font-size: 1.2rem;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookingDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    display: flex;
+    gap: 0.8rem;
+    margin-top:0.8rem;
+}
+
+.generalInfo {
+    padding: 1rem 0;
+}
+
+.bookingStatusContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+
+}
+
+.seeProductBtnDesktop {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .confirmTable {
+        padding: 3rem 5rem;
+        width: unset;
+    }
+
+    .confirmButtons {
+        display: flex;
+        gap:5px;
+    }
+
+    .acceptButtonCol, .cancelButtonCol {
+        width:100%;
+    }
+
+    .acceptButton, .cancelButton {
+        margin: 0;
+    }
+
+    .productInfo {
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .bookingImageContainer {
+        width: 50%;
+        height: 11rem;
+    }
+
+    .bookingDetails {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .seeProductBtnMobile {
+        width: 20rem;
+    }
+
+    .firstHr {
+        margin-top: 1rem;
+    }
+
+    .secondHr {
+        border: 0;
+        border-left: 1px solid var(--color-medium-gray);
+        height: 8rem;
+        margin: 0 1rem;
+    }
+
+    .generalInfo {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .generalInfo {
+        padding-bottom: 0;
+    }
+
+
+    .bookingStatusContainer {
+
+        width: 50%;
+
+    }
+
+    .datesContainer {
+        width: 50%;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productInfo, .bookingDetails, .firstHr {
+        width: 100%;
+    }
+
+  }
+
+  
+  @media screen and (min-width: 1120px) {
+      .cardContainer {
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 0;
+      }
+    .firstHr {
+        border: 0;
+        border-left: 1px solid var(--color-medium-gray);
+        height: 9rem;
+        width: fit-content;
+        margin:0;
+    }
+
+    .secondHr{
+        height: 9rem;
+        margin: 0;
+    }
+
+    .bookingImageContainer {
+        width: 40%;
+        height: 9rem;
+    }
+
+    .generalInfo {
+        width: fit-content;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+
+    .productInfo {
+        width: 60%;
+        margin: unset;
+        padding: 1rem;
+        gap: 1.3rem;
+    }
+
+    .bookingDetails {
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    .bookingDates {
+        margin-top: 1.5rem;
+    }
+
+    .datesContainer {
+        height: 100%;
+    }
+
+
+    .seeProductBtnDesktop {
+        display: unset;
+        width: 100%;
+        margin-top:3.4rem;
+    }
+
+    .seeProductBtnMobile {
+        display: none;
+    }
+
+    .nameAndRatingContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    .location {
+        margin-top: 0;
+    }
+
+    .datesContainer {
+        padding: 0;
+    }
+
+    .sectionTitle:first-child {
+        margin-bottom: 0;
+    }
+
+    .bookingStatusContainer {
+        width: 30%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: unset;
+    }
+
+
+      
+  }
+

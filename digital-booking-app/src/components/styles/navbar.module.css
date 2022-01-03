@@ -1,0 +1,241 @@
+/** @format */
+
+.headerSticky {
+    width: 100%;
+    height: 4.5rem;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 6px -4px var(--color-shadow);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logoSlogan {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+
+  .logoSlogan a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+  }
+  .divAvatar{
+    font-family: 'Poppins-Bold';
+    border-radius: 50%;
+    background-color: #fbc02d;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .headerButton {
+    height: 2.5rem;
+    padding: 2%;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid var(--color-yellow);
+    font-family: 'Poppins-SemiBold';
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .userName {
+    color:var(--color-dark);
+ 
+  }
+  
+  .createAccountButton {
+    background-color: var(--color-white);
+    color: var(--color-yellow);
+  }
+
+  .createAccountButton:hover, .loginButton:hover{
+    transform: scale(1.02);
+  }
+
+  .createAccountButton:active, .loginButton:active {
+    transform: translate(3px);
+  }
+
+  .loginButton {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+  }
+
+  .headerSlogan {
+    margin-left: 0.5rem;
+    color: var(--color-dark);
+    font-size: 0.6rem;
+    font-family: 'Poppins-SemiBold';
+    font-style: italic;
+  }
+  
+  .headerSloganMobile {
+    display: none;
+  }
+  
+  .menuIcon {
+    margin-right: 0.7rem;
+    cursor: pointer;
+  }
+  .fas.fa-bars {
+    font-size: 1.6rem;
+    color: var(--color-dark);
+  }
+  .menuNotMobile {
+    display: none;
+    gap: 10px;
+  }
+  
+.logoSlogan img {
+    width: auto;
+    height: 3rem;
+}
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-medium);
+    
+  }
+
+.menuIcon i {
+    font-size: 1.6rem;
+    color: var(--color-dark);
+  }
+
+  .userInfo h3{
+    font-size: 0.9rem;
+  }
+
+  .adminName{
+    display: none;
+  }
+
+
+  @media screen and (min-width: 769px) {
+    .menuIcon {
+      display: none;
+    }
+  
+    .menuNotMobile {
+      display: flex;
+      align-items: center;
+    }
+
+    .divAvatarName{
+      display: flex;
+      cursor: pointer;
+      gap: 1rem;
+      align-items: center;
+    }
+    /* dropdown */
+    .dropdown {
+      height: fit-content;
+    }
+    
+    
+    
+    
+    .dropdownContent a {
+      color: var(--color-dark);
+      display: block;
+    }
+    
+    .dropdownContentInactive {
+      display: none;
+      visibility:hidden;
+    }
+    .dropdownAdminActive {
+      visibility: visible;
+      display: unset;
+      position: absolute;
+      z-index: 5;
+      text-align: center;
+      width: fit-content;
+      padding: 0 0.9rem;
+      bottom: -105%;
+      right: 1rem;
+      transform: translateY(50%);
+      background-color: white;
+      border: 1px solid var(--color-medium-gray);
+      border-radius: 5px;
+    }
+    
+    .dropdownUserActive{
+      visibility: visible;
+      display: unset;
+      position: absolute;
+      z-index: 5;
+      text-align: center;
+      width: fit-content;
+      padding: 0.9rem;
+      bottom: -83%;
+      right: 1rem;
+      transform: translateY(50%);
+      background-color: white;
+      border: 1px solid var(--color-medium-gray);
+      border-radius: 5px;
+    }
+
+    .logoutText{
+      cursor: pointer;
+      padding: 0.7rem 3.3rem;
+      font-size: 0.9rem;
+      font-family: "Poppins-Semibold";
+      font-weight: 400;
+      color:var(--color-dark);
+    }
+
+    .logoutText {
+      cursor: pointer;
+      font-family: "Poppins-Semibold";
+      color: var(--color-yellow)
+    }
+
+    .adminName {
+      font-size: 0.7rem;
+      display: unset;
+      height: fit-content;
+      color: var(--color-dark);
+    }
+
+    .adminHr {
+      height: 3rem;
+      border: none;
+      border-left: 1px solid var(--color-yellow);
+    }
+
+    .dropdownLink{
+      cursor: pointer;
+      padding: 0.9rem 3.3rem;
+      font-size: 0.9rem;
+      font-family: "Poppins-Semibold";
+      font-weight: 400;
+      color:var(--color-dark);
+    }
+   
+  
+  }
+
+  @media screen and (min-width: 990px) {
+    .headerSlogan {
+      display: flex;
+    }
+    .logoSlogan {
+      gap: 1rem;
+    }
+  }
+  

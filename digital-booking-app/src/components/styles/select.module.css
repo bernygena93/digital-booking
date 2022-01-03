@@ -1,0 +1,95 @@
+/** @format */
+
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 365px;
+  height: 40px;
+  color: var(--color-medium);
+  background-color: var(--color-white);
+  font-family: "Poppins";
+  border: none;
+  border-radius: 5px;
+  padding-left: 2%;
+  gap: 2%;
+  cursor: pointer;
+}
+.dropdown::placeholder {
+  color: var(--color-dark);
+}
+
+.inputSelect {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+
+
+.dropdownUl {
+  position: absolute;
+  max-height: 0%;
+  overflow: hidden;
+}
+.dropdownUlView {
+  position: absolute;
+  margin-top: 2.7rem;
+  max-height: 400px;
+  overflow: hidden;
+  color: var(--color-medium);
+  background-color: var(--color-white);
+  width: 365px;
+  border-radius: 5px;
+  border: 0.5px solid var(--color-medium);
+}
+
+.selectCategory {
+  width: unset;
+}
+
+
+.selectWrapper{
+  position: relative;
+}
+
+.selectWrapperInactive{
+  position: unset;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  padding-left: 2%;
+  gap: 2%;
+  cursor: pointer;
+}
+.options:hover {
+  background-color: var(--color-light-grey);
+}
+
+.divider {
+  display: flex;
+  margin-left: 5%;
+  width: 90%;
+  border-bottom: solid 0.2px var(--color-light-grey);
+}
+
+@media screen and (min-width: 769px) {
+  .dropdown {
+    width: 265px;
+  }
+
+  .dropdownUlView {
+    width: 265px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+
+  .dropdownUlView {
+    width: 265px;
+  }
+}

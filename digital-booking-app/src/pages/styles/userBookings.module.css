@@ -1,0 +1,45 @@
+.bookingsContainer {
+    margin-top:6rem;
+    padding-bottom: 3rem;
+    color: var(--color-dark);
+
+}
+.myBookingsTitle, .activeBookingsTitle {
+    font-family: "Poppins-Bold";
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.activeBookingsTitle {
+    font-size: 1rem;
+    margin-top:0.5rem;
+}
+
+.containerSpinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10%;
+  }
+
+  .noBookingContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 20rem;
+      color: var(--color-medium-gray);
+      
+  }
+  
+  .noBooking {
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+
+@media screen and (min-width: 1120px) {
+    .bookingsContainer {
+        margin: 6rem 4rem;
+    }
+}
+

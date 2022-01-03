@@ -1,0 +1,55 @@
+  {
+    "id": 2,
+    "name": "Hotel Savoy",
+    "description": "Hotel",
+    "city": {
+        "id": 7,
+        "name": "Buenos Aires",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 1,
+        "name": "Hoteles",
+        "description": "Hoteles de alojamiento",
+        "urlImage": "https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg"
+    },
+    "images": [
+        {
+            "id": 4,
+            "title": "savoy_01",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/242546524.jpg?k=986c0aa31d928d6329de41fb29c9a916dff8397ca909b098fa2d5aacae2799d7&o=&hp=1"
+        },
+        {
+            "id": 5,
+            "title": "savoy_02",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/242552798.jpg?k=97891ab55e01490707c6eb32d78702eb1752383b5c8ccb2d116b8802694c65d4&o=&hp=1"
+        },
+        {
+            "id": 6,
+            "title": "savoy_03",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/242551992.jpg?k=48c63e3423ff182f4585f5914dcbb9c80915e44fd5a14fa551efc9fc5faacaf1&o=&hp=1"
+        },
+        {
+            "id": 7,
+            "title": "savoy_04",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/242561973.jpg?k=05d4ef51df0080a92255e271a577ac2896a64e7b739af85d23be637319bec973&o=&hp=1"
+        },
+        {
+            "id": 8,
+            "title": "savoy_05",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/242551511.jpg?k=5b49af07c395b8e0f36ac71d2d4dc98ffb75984a03a7998c9a496f00411c964b&o=&hp=1"
+        }
+    ],
+    "features": [
+        {
+            "id": 2,
+            "name": "WiFi",
+            "icon": "WifiIcon"
+        },
+        {
+            "id": 1,
+            "name": "Pileta",
+            "icon": "WifiIcon"
+        }
+    ]
+}

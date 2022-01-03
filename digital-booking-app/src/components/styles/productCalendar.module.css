@@ -1,0 +1,192 @@
+.divCalendar {
+  background-color: var(--color-dark-low);
+   padding: 1rem;
+   margin-top:2rem;
+}
+
+.divCalendar h2 {
+  font-family: "Poppins-Bold";
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.divCalendar h4{
+  font-family: "Poppins-Bold";
+  color: var(--color-dark);
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.buttonCalendar{
+  cursor: pointer;
+  width: 100%;
+  background-color: var(--color-dark);
+  color: #FFF;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins-Bold";
+  font-size: 0.9rem;
+}
+
+.buttonCalendar:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (min-width: 414px) {
+  .divButtonCalendar{
+    display: flex;
+    align-items: center;
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    z-index: 0;
+  }
+
+  .buttonCalendar{
+    width: 25rem;
+    height: 3rem;
+  }
+
+  .divCalendar h4{
+    font-size: 0.95rem;
+    padding: 0;
+  }
+
+  .divCalendar {
+     padding: 2rem;
+
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .divCalendarAndButton{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    z-index: 0;
+  }
+
+  .divButtonCalendar{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px var(--color-shadow);
+  }
+
+  .buttonCalendar{
+    width: 18rem;
+  }
+}
+
+
+
+
+
+/* 
+.calendar .rmdp-week-day {
+    color: var(--color-dark);
+}
+
+.calendar .rmdp-arrow {
+    border: solid var(--color-dark);
+    border-width: 0 2px 2px 0;
+}
+
+.calendar .rmdp-header-values{
+    font-family: "Poppins";
+}
+
+
+.calendar.rmdp-wrapper.rmdp-shadow {
+    width: 100%;
+    height: 20rem;
+}
+ */
+
+
+/* .calendar {
+    width: 100%;
+  } */
+
+
+
+
+/* .yellow .rmdp-wrapper {
+    border: 1px solid var(--rmdp-secondary-yellow);
+    box-shadow: 0 0 5px var(--rmdp-secondary-yellow);
+  }
+  
+  .yellow .rmdp-panel-body li {
+    background-color: var(--rmdp-primary-yellow);
+    box-shadow: 0 0 2px var(--rmdp-secondary-yellow);
+  }
+  
+  .yellow .rmdp-week-day {
+    color: var(--rmdp-primary-yellow);
+  }
+  
+  .yellow .rmdp-day.rmdp-deactive {
+    color: var(--rmdp-secondary-yellow);
+  }
+  
+  .yellow .rmdp-range {
+    background-color: var(--rmdp-primary-yellow);
+    box-shadow: 0 0 3px var(--rmdp-shadow-yellow);
+  }
+  
+  .yellow .rmdp-arrow {
+    border: solid var(--rmdp-primary-yellow);
+    border-width: 0 2px 2px 0;
+  }
+  
+  .yellow .rmdp-arrow-container:hover {
+    background-color: var(--rmdp-primary-yellow);
+    box-shadow: 0 0 3px var(--rmdp-secondary-yellow);
+  }
+  
+  .yellow .rmdp-panel-body::-webkit-scrollbar-thumb {
+    background: var(--rmdp-primary-yellow) !important;
+  }
+  
+  .yellow .rmdp-day.rmdp-today span {
+    background-color: var(--rmdp-today-yellow);
+  }
+  
+  .yellow .rmdp-rtl .rmdp-panel {
+    border-left: unset;
+    border-right: 1px solid var(--rmdp-secondary-yellow);
+  }
+  
+  .yellow .rmdp-day.rmdp-selected span:not(.highlight) {
+    background-color: var(--rmdp-primary-yellow);
+    box-shadow: 0 0 3px var(--rmdp-shadow-yellow);
+  }
+  
+  .yellow .rmdp-day:not(.rmdp-day-hidden) span:hover {
+    background-color: var(--rmdp-hover-yellow) !important;
+  }
+  
+  .yellow .b-deselect {
+    color: var(--rmdp-deselect-yellow);
+    background-color: white;
+  }
+  
+  .yellow .rmdp-action-button {
+    color: var(--rmdp-primary-yellow);
+  }
+  
+  .yellow .rmdp-button:not(.rmdp-action-button) {
+    background-color: var(--rmdp-primary-yellow);
+  }
+  
+  .yellow .rmdp-button:not(.rmdp-action-button):hover {
+    background-color: var(--rmdp-deselect-yellow);
+  }
+   */
