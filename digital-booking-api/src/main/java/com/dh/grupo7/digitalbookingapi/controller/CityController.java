@@ -25,7 +25,7 @@ public class CityController {
         this.cityMapper = cityMapper;
     }
 
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/")
     public ResponseEntity<?> createCity(@RequestBody CityDto cityDto) {
         if (cityDto.getId() != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -35,7 +35,7 @@ public class CityController {
         return ResponseEntity.ok(cityService.create(city));
     }
 
-    @GetMapping(path = "/read/all")
+    @GetMapping(path = "/")
     public ResponseEntity<?> readCities() {
         List<City> categories = cityService.readAll();
         if (categories.size() == 0) {

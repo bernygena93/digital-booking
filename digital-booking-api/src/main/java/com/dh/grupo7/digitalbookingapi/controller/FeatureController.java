@@ -24,7 +24,7 @@ public class FeatureController {
         this.featureMapper = featureMapper;
     }
 
-    @GetMapping(path = "/read/{id}")
+    @GetMapping(path = "/{id}")
     public ResponseEntity<?> readFeature(@PathVariable Long id) {
         Feature feature = featureService.read(id);
         if (feature == null) {
@@ -33,7 +33,7 @@ public class FeatureController {
         return ResponseEntity.ok(featureMapper.modelToDto(feature));
     }
 
-    @GetMapping(path="/read/all")
+    @GetMapping(path="/")
     public ResponseEntity<?> readAllFeaures(){
         List<Feature> featureList = featureService.readAll();
         if (featureList.size() == 0) {

@@ -25,7 +25,7 @@ public class RatingController {
         this.ratingMapper = ratingMapper;
     }
 
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/")
     public ResponseEntity<?> createRating(@RequestBody RatingDto ratingDto) {
         if (ratingDto.getId() != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -35,7 +35,7 @@ public class RatingController {
         return ResponseEntity.ok(ratingService.create(rating));
     }
 
-    @GetMapping(path = "/read/all")
+    @GetMapping(path = "/")
     public ResponseEntity<?> readRatings() {
         List<Rating> categories = ratingService.readAll();
         if (categories.size() == 0) {

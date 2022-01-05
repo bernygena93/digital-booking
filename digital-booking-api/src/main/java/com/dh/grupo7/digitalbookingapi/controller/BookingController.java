@@ -28,7 +28,7 @@ public class BookingController {
     }
 
     @PreAuthorize("isAuthenticated()")
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/")
     public ResponseEntity<?> createBooking(@RequestBody BookingDto bookingDto) {
         if (bookingDto.getId() != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -38,7 +38,7 @@ public class BookingController {
         return ResponseEntity.ok(bookingService.create(booking));
     }
 
-    @GetMapping(path = "/read/{product_id}")
+    @GetMapping(path = "/{product_id}")
     public ResponseEntity<?> findBookingByProductId(@PathVariable Long product_id) {
         Set<Booking> booking = bookingService.findByProductId(product_id);
         if (booking == null) {

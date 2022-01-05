@@ -25,7 +25,7 @@ public class CategoryController {
         this.categoryMapper = categoryMapper;
     }
 
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/")
     public ResponseEntity<?> createCategory(@RequestBody CategoryDto categoryDto) {
         if (categoryDto.getId() != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -35,7 +35,7 @@ public class CategoryController {
         return ResponseEntity.ok(categoryService.create(category));
     }
 
-    @GetMapping(path = "/read/{id}")
+    @GetMapping(path = "/{id}")
     public ResponseEntity<?> readCategory(@PathVariable Long id) {
         Category category = categoryService.read(id);
         if (category == null) {
@@ -44,7 +44,7 @@ public class CategoryController {
         return ResponseEntity.ok(categoryMapper.modelToDto(category));
     }
 
-    @GetMapping(path = "/read/all")
+    @GetMapping(path = "/")
     public ResponseEntity<?> readCategories() {
         List<Category> categories = categoryService.readAll();
         if (categories.size() == 0) {
@@ -56,7 +56,7 @@ public class CategoryController {
                 .collect(Collectors.toList()));
     }
 
-    @PutMapping(path = "/update")
+    @PutMapping(path = "/")
     public ResponseEntity<?> updateCategory(@RequestBody CategoryDto categoryDto) {
         if (categoryDto.getId() == null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -74,7 +74,7 @@ public class CategoryController {
         return ResponseEntity.ok(categoryService.read(categoryDto.getId()));
     }
 
-    @DeleteMapping(path = "/delete/{id}")
+    @DeleteMapping(path = "/{id}")
     public ResponseEntity<?> deleteCategory(@PathVariable Long id) {
         Category categoryToDelete = categoryService.read(id);
 

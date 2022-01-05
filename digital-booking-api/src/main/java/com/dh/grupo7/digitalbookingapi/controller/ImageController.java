@@ -20,7 +20,7 @@ public class ImageController {
         this.imageMapper = imageMapper;
     }
 
-    @DeleteMapping(path = "/delete/{id}")
+    @DeleteMapping(path = "/{id}")
     public ResponseEntity<?> deleteImage(@PathVariable Long id) {
         Image image = imageService.read(id);
 

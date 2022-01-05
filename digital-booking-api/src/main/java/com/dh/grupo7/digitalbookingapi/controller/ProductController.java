@@ -41,7 +41,7 @@ public class ProductController {
     }
 
     @PreAuthorize("hasRole('ADMIN')")
-    @PostMapping(path = "/create")
+    @PostMapping(path = "/")
     public ResponseEntity<?> createProduct(@RequestBody ProductDto productDto) {
         if (productDto.getId() != null) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
@@ -51,7 +51,7 @@ public class ProductController {
         return ResponseEntity.ok(productService.create(product));
     }
 
-    @GetMapping(path = "/read/{id}")
+    @GetMapping(path = "/{id}")
     public ResponseEntity<?> readProduct(@PathVariable Long id) {
         Product product = productService.read(id);
         if (product == null) {
@@ -60,7 +60,7 @@ public class ProductController {
         return ResponseEntity.ok(productMapper.modelToDto(product));
     }
 
-    @GetMapping(path = "/read/all")
+    @GetMapping(path = "/")
     public ResponseEntity<?> readProducts() {
         List<Product> categories = productService.readAll();
         if (categories.size() == 0) {
@@ -72,7 +72,7 @@ public class ProductController {
                 .collect(Collectors.toList()));
     }
 
-    @GetMapping(path = "/read/category/{id}")
+    @GetMapping(path = "/category/{id}")
     public ResponseEntity<?> readProducts(@PathVariable Long id) {
         List<Product> products = productService.findProductsByCategory(id);
         if (products.size() == 0) {
@@ -100,7 +100,7 @@ public class ProductController {
     }
 
     @PreAuthorize("hasRole('ADMIN')")
-    @PutMapping(path= "/update")
+    @PutMapping(path= "/")
     public ResponseEntity<?> updateProduct(@RequestBody ProductDto productDto){
         Product product = productMapper.dtoToModel(productDto);
         if(productDto == null){
