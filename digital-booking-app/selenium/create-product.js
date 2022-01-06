@@ -17,8 +17,8 @@ async function TC_008() {
 
   //Login
   await driver.sleep(1000);
-  await driver.findElement(By.id("email")).sendKeys("anto.legarreta@gmail.com");
-  await driver.findElement(By.id("password")).sendKeys("Anto1234");
+  await driver.findElement(By.id("email")).sendKeys("*********");
+  await driver.findElement(By.id("password")).sendKeys("********");
   await driver.findElement(By.className("login_loginButton__Y1YcB")).click();
   await driver.sleep(2000);
   await driver.sleep(6000);

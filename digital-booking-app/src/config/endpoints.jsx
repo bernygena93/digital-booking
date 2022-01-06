@@ -8,7 +8,7 @@
 // export const endpointCategory = "http://localhost:8080/category/";
 
 // Endpoint al servidor alojado en AWS
-export const endpointBase = "http://44.199.165.123:8080/";
+export const endpointBase = "**************";
 
 export const endpointCity = endpointBase + "city/";
 export const endpointProduct = endpointBase + "product/";
